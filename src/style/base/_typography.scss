@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display:ital@0;1&display=swap');
 
 h1 {
   font-weight: 700;
 }
 
 p,
-a {
-  font-family: 'Montserrat', sans-serif;
+a ,ul{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: $default-font-size;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a,
